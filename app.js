@@ -46,7 +46,7 @@ const checkWinner = () => {
 
       // Redirect after short delay
       setTimeout(() => {
-        window.location.href = 'http://127.0.0.1:5501/WinnerPage/index.html';
+        window.location.href = 'https://soft42111.github.io/tic-tac-toe-game/winnerpage';
       }, 500); // half-second delay so player sees result
       break;
     }
