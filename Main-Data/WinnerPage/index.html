@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Tic | Tac | Toe - Winning Page!</title>
+</head>
+<body>
+  <h1>The winner is:</h1>
+
+  <div class="card">
+    <h3>Want a new game?</h3>
+    <p>Well if you want one then be a man and click on NEW GAME!</p>
+    <button id="new-game-btn">New Game!!</button>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 Tic | Tac | Toe. All rights reserved.</p>
+  </footer>
+
+  <!-- ✅ Add this script block -->
+  <script>
+    document.getElementById("new-game-btn").addEventListener("click", () => {
+      window.location.href = "https://soft42111.github.io/tic-tac-toe-game/";
+    });
+  </script>
+</body>
+</html>
